@@ -6,7 +6,7 @@
 
 هذا موقع ثابت: افتح `index.html` في المتصفح، أو شغّل أي خادم ملفات ثابت من المجلد. يمكن نشره عبر GitHub Pages أو Netlify أو Cloudflare Pages، مع بقاء مجلد `assets` بجوار الصفحة.
 
-**GitHub Pages**: Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save.
+**GitHub Pages**: Settings → Pages → Build and deployment → Source → **GitHub Actions** → Save. ثم شغّل Workflow الموجود في `.github/workflows/deploy.yml` (أو ادفع تحديثًا جديدًا إلى `main`). ينشر الموقع على `https://madelhelal2024-art.github.io/Attakallum-Kids/`. يلزم تفعيل Pages مرة واحدة من إعدادات الحساب.
 
 > روابط معاينة الفيديو والصوت والملفات في النص الأصلي كانت حقولًا فارغة `[رابط النموذج]`. لذلك تُظهر الصفحة توضيحًا بدل اختلاق روابط. أضف روابط المواد الحقيقية عند اعتمادها.
 
